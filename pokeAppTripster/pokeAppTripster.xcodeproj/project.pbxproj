@@ -16,6 +16,8 @@
 		CE7A575228DBC8E700C402AA /* pokeAppTripsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A575128DBC8E700C402AA /* pokeAppTripsterTests.swift */; };
 		CE7A575C28DBC8E700C402AA /* pokeAppTripsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A575B28DBC8E700C402AA /* pokeAppTripsterUITests.swift */; };
 		CE7A575E28DBC8E700C402AA /* pokeAppTripsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A575D28DBC8E700C402AA /* pokeAppTripsterUITestsLaunchTests.swift */; };
+		CE7A576C28DBDD8300C402AA /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A576B28DBDD8300C402AA /* Pokemon.swift */; };
+		CE7A576E28DBDDF600C402AA /* PokemonIndex+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A576D28DBDDF600C402AA /* PokemonIndex+Anchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CE7A575728DBC8E700C402AA /* pokeAppTripsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokeAppTripsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7A575B28DBC8E700C402AA /* pokeAppTripsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeAppTripsterUITests.swift; sourceTree = "<group>"; };
 		CE7A575D28DBC8E700C402AA /* pokeAppTripsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeAppTripsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE7A576B28DBDD8300C402AA /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		CE7A576D28DBDDF600C402AA /* PokemonIndex+Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PokemonIndex+Anchor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		CE7A573928DBC8E600C402AA /* pokeAppTripster */ = {
 			isa = PBXGroup;
 			children = (
+				CE7A576A28DBDD3000C402AA /* Models */,
 				CE7A573A28DBC8E600C402AA /* AppDelegate.swift */,
 				CE7A573C28DBC8E600C402AA /* SceneDelegate.swift */,
 				CE7A573E28DBC8E600C402AA /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				CE7A575D28DBC8E700C402AA /* pokeAppTripsterUITestsLaunchTests.swift */,
 			);
 			path = pokeAppTripsterUITests;
+			sourceTree = "<group>";
+		};
+		CE7A576A28DBDD3000C402AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A576B28DBDD8300C402AA /* Pokemon.swift */,
+				CE7A576D28DBDDF600C402AA /* PokemonIndex+Anchor.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			files = (
 				CE7A573F28DBC8E600C402AA /* ViewController.swift in Sources */,
 				CE7A573B28DBC8E600C402AA /* AppDelegate.swift in Sources */,
+				CE7A576E28DBDDF600C402AA /* PokemonIndex+Anchor.swift in Sources */,
+				CE7A576C28DBDD8300C402AA /* Pokemon.swift in Sources */,
 				CE7A573D28DBC8E600C402AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT4A7M75NC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pokeAppTripster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT4A7M75NC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pokeAppTripster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
